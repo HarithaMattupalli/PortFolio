@@ -1,0 +1,155 @@
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.h1 {
+  color: black;
+}
+
+.logo {
+  width: 15%;
+  height: 80px;
+}
+
+.profilepic {
+  width: 100%;
+}
+
+.myImage {
+  width: 80%;
+  height: 100%;
+  margin-top: 3%;
+  border-radius: 10px;
+}
+
+.appimg {
+  height: 215px;
+}
+
+.appgallery {
+  display: flex;
+  text-align: center;
+  margin-top: 3%;
+  justify-content: space-between;
+}
+
+.pinterest {
+  width: 20%;
+  border: 5px solid red;
+  box-shadow: 5px 5px 5px red;
+}
+
+.whatsapp {
+  width: 20%;
+  border: 5px solid green;
+  box-shadow: 5px 5px 5px green;
+}
+
+.facebook {
+  width: 20%;
+  border: 5px solid blue;
+  box-shadow: 5px 5px 5px blue;
+}
+
+.snapchat {
+  width: 20%;
+  border: 5px solid yellow;
+  box-shadow: 5px 5px 5px yellow;
+}
+
+.foot {
+  text-align: center;
+}
+
+@media screen and (min-width:320px) and (max-width:500px) {
+  .profilepic {
+    height: 250px;
+  }
+
+  .appgallery {
+    width: 97%;
+    display: inline-block;
+  }
+
+  .myImage {
+    width: 100%;
+    height: 200px;
+    margin-left: 1px;
+  }
+
+  .appimg {
+    width: 40%;
+    margin-top: 12px;
+  }
+
+  .appdes {
+    width: 40%;
+    word-wrap: break-word;
+  }
+
+  .pinterest {
+    width: 100%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .whatsapp {
+    width: 100%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .facebook {
+    width: 100%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .snapchat {
+    width: 100%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width:501px) and (max-width:780px) {
+  .appgallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .myImage {
+    width: 250px;
+  }
+
+  .appdes {
+    font-size: 25px;
+  }
+
+  .pinterest {
+    width: 40%;
+  }
+
+  .whatsapp {
+    width: 40%;
+  }
+
+  .facebook {
+    width: 40%;
+    margin-top: 5%;
+  }
+
+  .snapchat {
+    width: 40%;
+    margin-top: 5%;
+  }
+
+  .foot {
+    font-size: 25px;
+  }
+}
