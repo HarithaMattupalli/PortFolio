@@ -40,10 +40,24 @@
   box-shadow: 5px 5px 5px red;
 }
 
+.pinterest:hover{
+  transform: translateX(40px);
+  transform:translateY(20px);
+  border: 5px solid white;
+  box-shadow: 1px 1px 5px 5px red;
+}
+
 .whatsapp {
   width: 20%;
   border: 5px solid green;
   box-shadow: 5px 5px 5px green;
+}
+
+.whatsapp:hover{
+  transform: translateX(40px);
+  transform:translateY(20px);
+  border: 5px solid white;
+  box-shadow: 1px 1px 5px 5px green;
 }
 
 .facebook {
@@ -52,10 +66,24 @@
   box-shadow: 5px 5px 5px blue;
 }
 
+.facebook:hover{
+  transform: translateX(40px);
+  transform:translateY(20px);
+  border: 5px solid white;
+  box-shadow: 1px 1px 5px 5px blue;
+}
+
 .snapchat {
   width: 20%;
   border: 5px solid yellow;
   box-shadow: 5px 5px 5px yellow;
+}
+
+.snapchat:hover{
+  transform: translateX(40px);
+  transform:translateY(20px);
+  border: 5px solid white;
+  box-shadow: 1px 1px 5px 5px yellow;
 }
 
 .foot {
